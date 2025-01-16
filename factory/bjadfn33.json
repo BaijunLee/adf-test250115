@@ -1,0 +1,9 @@
+{
+	"name": "bjadfn33",
+	"location": "chinanorth3",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7bdd1e0c-d85a-4618-a623-85ed0cb6d1d0",
+		"tenantId": "954ddad8-66d7-47a8-8f9f-1316152d9587"
+	}
+}
