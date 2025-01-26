@@ -152,6 +152,10 @@
 			"type": "string",
 			"defaultValue": "/subscriptions/fdcb27da-91d5-4223-b967-85cfbc459a75/resourceGroups/baijun-ADF2-RSG2/providers/Microsoft.Storage/storageAccounts/testtrigger1"
 		},
+		"default_properties_testgp1_value": {
+			"type": "string",
+			"defaultValue": "aaa"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -215,6 +219,9 @@
 					"MySql1_password": {
 						"value": "[parameters('MySql1_password')]"
 					},
+					"default_properties_testgp1_value": {
+						"value": "[parameters('default_properties_testgp1_value')]"
+					},
 					"AzureDataExplorer1_properties_typeProperties_endpoint": {
 						"value": "[parameters('AzureDataExplorer1_properties_typeProperties_endpoint')]"
 					},
@@ -274,9 +281,6 @@
 					},
 					"MySql1_properties_typeProperties_username": {
 						"value": "[parameters('MySql1_properties_typeProperties_username')]"
-					},
-					"blobtrigger_properties_typeProperties_serviceEndpoint": {
-						"value": "[parameters('blobtrigger_properties_typeProperties_serviceEndpoint')]"
 					}
 				}
 			},
@@ -295,6 +299,9 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"blobtrigger_properties_typeProperties_serviceEndpoint": {
+						"value": "[parameters('blobtrigger_properties_typeProperties_serviceEndpoint')]"
 					},
 					"trigger2_properties_typeProperties_scope": {
 						"value": "[parameters('trigger2_properties_typeProperties_scope')]"
