@@ -151,10 +151,6 @@
 		"trigger2_properties_typeProperties_scope": {
 			"type": "string",
 			"defaultValue": "/subscriptions/fdcb27da-91d5-4223-b967-85cfbc459a75/resourceGroups/baijun-ADF2-RSG2/providers/Microsoft.Storage/storageAccounts/testtrigger1"
-		},
-		"default_properties_testgp2_value": {
-			"type": "string",
-			"defaultValue": "aaa"
 		}
 	},
 	"variables": {
@@ -2208,12 +2204,7 @@
 			"name": "[concat(parameters('factoryName'), '/default')]",
 			"type": "Microsoft.DataFactory/factories/globalparameters",
 			"apiVersion": "2018-06-01",
-			"properties": {
-				"testgp2": {
-					"type": "string",
-					"value": "[parameters('default_properties_testgp2_value')]"
-				}
-			},
+			"properties": {},
 			"dependsOn": []
 		}
 	]
