@@ -1,1 +1,6 @@
-{}
+{
+	"testgp1": {
+		"type": "string",
+		"value": "aaa"
+	}
+}
