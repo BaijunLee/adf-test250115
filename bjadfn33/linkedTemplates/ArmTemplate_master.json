@@ -152,7 +152,7 @@
 			"type": "string",
 			"defaultValue": "/subscriptions/fdcb27da-91d5-4223-b967-85cfbc459a75/resourceGroups/baijun-ADF2-RSG2/providers/Microsoft.Storage/storageAccounts/testtrigger1"
 		},
-		"default_properties_testgp1_value": {
+		"default_properties_testgp2_value": {
 			"type": "string",
 			"defaultValue": "aaa"
 		},
@@ -219,8 +219,8 @@
 					"MySql1_password": {
 						"value": "[parameters('MySql1_password')]"
 					},
-					"default_properties_testgp1_value": {
-						"value": "[parameters('default_properties_testgp1_value')]"
+					"default_properties_testgp2_value": {
+						"value": "[parameters('default_properties_testgp2_value')]"
 					},
 					"AzureDataExplorer1_properties_typeProperties_endpoint": {
 						"value": "[parameters('AzureDataExplorer1_properties_typeProperties_endpoint')]"
