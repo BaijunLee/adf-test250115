@@ -1,13 +1,5 @@
 {
 	"name": "bjadfn33",
-	"properties": {
-		"globalParameters": {
-			"testgp2": {
-				"type": "string",
-				"value": "aaa"
-			}
-		}
-	},
 	"location": "chinanorth3",
 	"identity": {
 		"type": "SystemAssigned",
